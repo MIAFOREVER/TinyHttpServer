@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>计算器</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+  </head>
+  <body>
+    <div id = "bigblock">
+    <!-- 标题 -->
+    <div id = "title">
+      Simple calculator
+    </div>
+    <div id = "show">
+    </div>
+
+    <!-- 第一行 -->
+    <div class = "raw">
+      <div class = "block" onclick="calculate(7)"><span>7</span></div>
+      <div class = "block" onclick="calculate(8)"><span>8</span></div>
+      <div class = "block" onclick="calculate(9)"><span>9</span></div><div class = "block" onclick="calculate('/')"><span>/</span></div>
+    </div>
+
+    <!-- 第二行 -->
+    <div class = "raw">
+      <div class = "block" onclick="calculate(4)"><span>4</span></div>
+      <div class = "block" onclick="calculate(5)"><span>5</span></div>
+      <div class = "block" onclick="calculate(6)"><span>6</span></div><div class = "block" onclick="calculate('*')"><span>*</span></div>
+    </div>
+    <div class = "raw">
+      <div class = "block" onclick="calculate(1)"><span>1</span></div>
+      <div class = "block" onclick="calculate(2)"><span>2</span></div>
+      <div class = "block" onclick="calculate(3)"><span>3</span></div><div class = "block" onclick="calculate('-')"><span>-</span></div>
+    </div>
+
+    <!-- 第三行 -->
+    <div class = "raw">
+      <div class = "block" onclick="calculate(0)"><span>0</span></div>
+      <div class = "block" onclick="calculate('.')"><span>.</span></div>
+      <div class = "block" onclick="calculate('C')"><span>C</span></div><div class = "block" onclick="calculate('+')"><span>+</span></div>
+    </div>
+
+    <!-- 第四行 -->
+    <div class = "raw">
+      <div class = "block" onclick="calculate('(')"><span>(</span></div>
+      <div class = "block" onclick="calculate(')')"><span>)</span></div>
+      <div class = "block" onclick="calculate('CE')"><span>CE</span></div><div class = "block" onclick="calculate('=')"><span>=</span></div>
+    </div>
+    </div>
+    <script  src="calculator.js">
+    </script>
+  </body>
+</html>

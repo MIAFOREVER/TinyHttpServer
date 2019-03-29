@@ -1,0 +1,80 @@
+/****全局设置****/
+*{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+/****标题****/
+#title{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+  color: rgb(200,120,100);
+}
+
+/****最外围方框****/
+#bigblock{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 100px;
+  border: 1px solid rgb(128,128,228);
+  width:  400px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+/****结果显示栏****/
+#show{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 10px;
+  left: 0px;
+  width: 350px;
+  height: 30px;
+  border: 1px solid black;
+  text-align: right;
+  font-size: 20px;
+}
+
+/****字体大小****/
+span{
+  font-size: 30px;
+}
+
+/****每一行设置****/
+.raw
+{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 10px;
+  left: 0px;
+  width: 400px;
+  height: 65px;
+  overflow: hidden;
+}
+
+/****每一个运算符****/
+.block
+{
+  background-color: rgb(10,120,120);
+  text-align: center;
+  color: rgb(255,255,255);
+  width: 79px;
+  margin-left: 9px;
+  height: 55px;
+  margin-right: 9px;
+  margin-top: 5px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.block:hover
+{
+  background-color: rgb(10,220,220);
+  transition: all 0.2s;
+}
